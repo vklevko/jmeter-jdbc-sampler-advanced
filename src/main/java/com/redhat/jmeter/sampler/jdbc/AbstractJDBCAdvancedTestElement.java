@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * Created by vklevko on 2/29/16.
  */
-public class AbstractJDBCAdvancedTestElement extends AbstractJDBCTestElement {
+public abstract class AbstractJDBCAdvancedTestElement extends AbstractJDBCTestElement {
 
     private static final Logger log = LoggingManager.getLoggerForClass();
 

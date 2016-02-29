@@ -8,7 +8,7 @@ import java.beans.PropertyDescriptor;
 /**
  * Created by vklevko on 2/29/16.
  */
-public class JDBCAdvancedTestElementBeanInfoSupport extends JDBCTestElementBeanInfoSupport {
+public abstract class JDBCAdvancedTestElementBeanInfoSupport extends JDBCTestElementBeanInfoSupport {
     public JDBCAdvancedTestElementBeanInfoSupport(Class<? extends TestBean> beanClass) {
         super(beanClass);
         createPropertyGroup("statementConfig",
